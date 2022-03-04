@@ -30,17 +30,17 @@ class Team
 end
   
   #インスタンスの生成
-  Giants = Team.new("Giants",67,45,8)
-  Tigers = Team.new("Tigers",60,53,7)
-  Dragons = Team.new("Dragons",60,55,5)
-  BayStars = Team.new("BayStars",56,58,6)
-  Carp = Team.new("Carp",52,56,12)
-  Swallows = Team.new("Swallows",41,69,10)
+  giants = Team.new("Giants",67,45,8)
+  tigers = Team.new("Tigers",60,53,7)
+  dragons = Team.new("Dragons",60,55,5)
+  bayStars = Team.new("BayStars",56,58,6)
+  carp = Team.new("Carp",52,56,12)
+  swallows = Team.new("Swallows",41,69,10)
 
   #インスタンスメソッドの呼び出し
-  Giants.show_team_result
-  Tigers.show_team_result
-  Dragons.show_team_result
-  BayStars.show_team_result
-  Carp.show_team_result
-  Swallows.show_team_result
+  giants.show_team_result
+  tigers.show_team_result
+  dragons.show_team_result
+  bayStars.show_team_result
+  carp.show_team_result
+  swallows.show_team_result
